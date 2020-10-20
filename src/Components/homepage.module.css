@@ -1,0 +1,26 @@
+.overlay {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.details{
+    display: inline-table;
+}
+
+
+.temp {
+ /* background-image: url(); //background: url("./images/background.jpg"); */
+ background-image: url("../images/city.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ font-family: "Open Sans", sans-serif;
+ text-align: center; 
+ color: rgb(41, 6, 6);
+ 
+}
+
